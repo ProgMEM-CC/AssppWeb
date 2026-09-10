@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: python
+        uses: actions/setup-python@v7
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
 
